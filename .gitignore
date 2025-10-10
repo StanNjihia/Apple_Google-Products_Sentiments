@@ -1,0 +1,58 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Data files (if large or sensitive)
+*.csv
+*.xlsx
+*.json
+*.sqlite
+*.db
+data/raw/*
+data/processed/*
+!data/.gitkeep
+
+# Model files (often too large for git)
+*.h5
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+models/*.h5
+models/*.pkl
+
+# VS Code settings (optional - some keep this)
+.vscode/
+
+# Mac OS
+.DS_Store
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Large output files
+*.png
+*.jpg
+*.jpeg
+outputs/
+
+# Temporary files
+*.tmp
+*.temp
